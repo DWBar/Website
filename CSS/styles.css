@@ -1,6 +1,8 @@
 /********************************TAG SELECTOR*******************************/
 body {
   margin: 0;
+  text-align: center;
+  background-color: #F9CF93;
 }
 
 h1 {
@@ -9,6 +11,9 @@ h1 {
   margin-top: 0;
 }
 
+span {
+  text-decoration: underline;
+}
 
 
 
@@ -16,27 +21,25 @@ h1 {
 
 
 /********************************CLASS SELECTOR*******************************/
-.bottom {
+
+.top-container {
+  background-color: #F9CF93;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-container {
 height: 200px;
 width: 200px;
-background-color: blue;
+background-color: #F9E4C8;
 
 }
 
-
-.middle {
+.middle-container {
   height: 200px;
   width: 200px;
-  background-color: red;
+  background-color: #FAEEE0;
 
-}
-
-
-.titleBlock {
-  background-color: #1A374D;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
 }
 
 .styles {
@@ -46,5 +49,28 @@ background-color: blue;
   margin-top: 0;
 }
 
+.top-cloud {
+  position: absolute;
+  top: -80%;
+  right: 20%;
+}
+
+.bottom-cloud-left {
+  position: absolute;
+  left: 25%;
+  top: 30%;
+}
+
+.bottom-cloud-center {
+  position: absolute;
+  left: 45%;
+  top: 32%;
+}
+
+.bottom-cloud-right {
+  position: absolute;
+  left: 60%;
+  top: 40%;
+}
 
 /********************************ID SELECTOR*******************************/
