@@ -17,17 +17,7 @@ span {
 
 
 
-
-
-
 /********************************CLASS SELECTOR*******************************/
-
-.top-container {
-  background-color: #F9CF93;
-  position: relative;
-  padding-top: 100px;
-}
-
 .bottom-container {
 height: 200px;
 width: 200px;
@@ -39,20 +29,12 @@ background-color: #F9E4C8;
   height: 200px;
   width: 200px;
   background-color: #FAEEE0;
-
 }
 
-.styles {
-  background-color: #1A374D;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-}
-
-.top-cloud {
-  position: absolute;
-  top: -80%;
-  right: 20%;
+.top-container {
+  background-color: #F9CF93;
+  position: relative;
+  padding-top: 100px;
 }
 
 .bottom-cloud-left {
@@ -71,6 +53,19 @@ background-color: #F9E4C8;
   position: absolute;
   left: 60%;
   top: 40%;
+}
+
+.styles {
+  background-color: #1A374D;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+}
+
+.top-cloud {
+  position: absolute;
+  top: -80%;
+  right: 20%;
 }
 
 /********************************ID SELECTOR*******************************/
