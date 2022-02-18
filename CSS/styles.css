@@ -1,14 +1,28 @@
 /********************************TAG SELECTOR*******************************/
+/*
+SAVING SOME FONTS HERE UNTIL I FIND A BETTER WAY TO DO IT.
+font-family: 'Homemade Apple', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oooh Baby', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rock Salt', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Tillana', cursive;
+font-family: 'Zen Kaku Gothic Antique', sans-serif;
+*/
 body {
   margin: 0;
   text-align: center;
   background-color: #F9CF93;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
+  font-family: 'Oooh Baby', cursive;
 }
 
 span {
@@ -17,15 +31,9 @@ span {
 
 /********************************CLASS SELECTOR*******************************/
 .bottom-container {
-  height: 200px;
-  width: 200px;
-  background-color: #F9E4C8;
 }
 
 .middle-container {
-  height: 200px;
-  width: 200px;
-  background-color: #FAEEE0;
 }
 
 .top-container {
@@ -50,6 +58,12 @@ span {
   position: absolute;
   left: 60%;
   top: 40%;
+}
+
+.circle-profile {
+  max-width: 60%;
+  max-height: 60%;
+  padding: 4%;
 }
 
 .styles {
