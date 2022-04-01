@@ -11,6 +11,10 @@ font-family: 'Sacramento', cursive;
 font-family: 'Tillana', cursive;
 font-family: 'Zen Kaku Gothic Antique', sans-serif;
 */
+a {
+  color: #104E8B;
+}
+
 body {
   margin: 0;
   text-align: center;
@@ -19,10 +23,29 @@ body {
 }
 
 h1 {
+  color: #1E90FF;
+  font-size: 5.625rem;
+  font-weight: bold;
   margin-left: 0;
   margin-right: 0;
-  margin-top: 0;
+  margin-top: 50px;
   font-family: 'Oooh Baby', cursive;
+}
+
+h2 {
+  color: #1E90FF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin: 20px auto 20px auto;
+}
+
+hr {
+  border:none;
+  border-top:3px dashed #1E90FF;
+  width:5%;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 span {
@@ -30,40 +53,90 @@ span {
 }
 
 /********************************CLASS SELECTOR*******************************/
-.bottom-container {
-}
 
-.middle-container {
-}
-
-.top-container {
+.container-footer {
   background-color: #F9CF93;
+  line-height: 1;
   position: relative;
-  padding-top: 100px;
+  padding-top: 20px;
 }
 
-.bottom-cloud-left {
-  position: absolute;
-  left: 20%;
-  top: 30%;
+.container-middle {
+  background-color: #ECECEC;
+  line-height: 1;
+  position: relative;
+  padding-bottom: 50px;
 }
 
-.bottom-cloud-center {
+.containter-middle-skill {
+  line-height: 1.5;
+  margin: 70px auto 70px auto;
+  max-width: 50%;
+  text-align: left;
+}
+
+.container-top {
+  background-color: #F9CF93;
+  line-height: 1;
+  position: relative;
+  padding-top: 50px;
+}
+
+.description-settings {
+  clear: left;
+  white-space: break-spaces;
+}
+
+.description-header {
+  font-size: 42px;
+  padding: 5%;
+}
+
+.icon-skill {
+  float: left;
+  width: 25%;
+  margin-right: 30px;
+}
+
+.icon-education {
+  float: right;
+  width: 25%;
+  margin-left: 30px;
+}
+
+.icon-contact {
+  max-width: 20%;
+  max-height: 20%;
+  padding-top: 5%;
+}
+
+.image-cloud-one{
   position: absolute;
   left: 55%;
-  top: 5%;
+  top: 65%;
 }
 
-.bottom-cloud-right {
+.image-cloud-two {
+  position: absolute;
+  left: 25%;
+  top: 60%;
+}
+
+.image-cloud-three {
   position: absolute;
   left: 60%;
-  top: 40%;
+  top: 70%;
+}
+.image-cloud-four {
+  position: absolute;
+  right: 50%;
+  top: 63%;
 }
 
-.circle-profile {
-  max-width: 60%;
-  max-height: 60%;
-  padding: 4%;
+.image-profile {
+  max-height: 25%;
+  max-width: 25%;
+  margin: 80px auto 20px auto;
 }
 
 .styles {
@@ -71,12 +144,6 @@ span {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
-}
-
-.top-cloud {
-  position: absolute;
-  top: -80%;
-  right: 20%;
 }
 
 /********************************ID SELECTOR*******************************/
