@@ -13,6 +13,13 @@ font-family: 'Zen Kaku Gothic Antique', sans-serif;
 */
 a {
   color: #104E8B;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ECECEC;
 }
 
 body {
@@ -41,18 +48,55 @@ h2 {
 }
 
 hr {
-  border:none;
-  border-top:3px dashed #1E90FF;
-  width:5%;
+  border: none;
+  border-top: 3px dashed #F9CF93;
+  width: 5%;
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
 
 span {
   text-decoration: underline;
 }
 
 /********************************CLASS SELECTOR*******************************/
+.button {
+  background: #ECECEC;
+  background-image: -webkit-linear-gradient(top, #ECECEC, #F9CF93);
+  background-image: -moz-linear-gradient(top, #ECECEC, #F9CF93);
+  background-image: -ms-linear-gradient(top, #ECECEC, #F9CF93);
+  background-image: -o-linear-gradient(top, #ECECEC, #F9CF93);
+  background-image: -webkit-gradient(to bottom, #ECECEC, #F9CF93);
+  -webkit-border-radius: 36px;
+  -moz-border-radius: 36px;
+  border-radius: 36px;
+  color: #F9CF93;
+  font-family: Trebuchet MS;
+  font-size: 22px;
+  font-weight: 200;
+  padding: 13px;
+  -webkit-box-shadow: 0 0 24px 0 #F9CF93;
+  -moz-box-shadow: 0 0 24px 0 #F9CF93;
+  box-shadow: 0 0 24px 0 #F9CF93;
+  text-shadow: 1px 1px 10px #DD380D;
+  border: outset #F9CF93 0;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.contact-me {
+  line-height: 1;
+  position: relative;
+  margin: 20px auto 20px;
+  padding-bottom: 50px;
+}
 
 .container-footer {
   background-color: #F9CF93;
@@ -61,11 +105,15 @@ span {
   padding-top: 20px;
 }
 
+.container-landscape {
+
+}
+
 .container-middle {
   background-color: #ECECEC;
   line-height: 1;
   position: relative;
-  padding-bottom: 50px;
+  padding: 100px auto 100px auto;
 }
 
 .containter-middle-skill {
@@ -82,14 +130,13 @@ span {
   padding-top: 50px;
 }
 
-.description-settings {
-  clear: left;
-  white-space: break-spaces;
-}
-
 .description-header {
   font-size: 42px;
   padding: 5%;
+}
+
+.description-footer {
+  font-size: .75rem;
 }
 
 .icon-skill {
@@ -105,12 +152,12 @@ span {
 }
 
 .icon-contact {
-  max-width: 20%;
-  max-height: 20%;
-  padding-top: 5%;
+  max-width: 15%;
+  max-height: 15%;
+  padding-top: 2%;
 }
 
-.image-cloud-one{
+.image-cloud-one {
   position: absolute;
   left: 55%;
   top: 65%;
@@ -127,6 +174,7 @@ span {
   left: 60%;
   top: 70%;
 }
+
 .image-cloud-four {
   position: absolute;
   right: 50%;
@@ -137,6 +185,24 @@ span {
   max-height: 25%;
   max-width: 25%;
   margin: 80px auto 20px auto;
+}
+
+.paragraph-contact{
+  clear: left;
+  width: 50%;
+  margin: auto;
+  line-height: 1;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+.paragraph-footer {
+  font-size: .75rem;
+}
+
+.paragraph-settings {
+  clear: left;
+  white-space: break-spaces;
 }
 
 .styles {
