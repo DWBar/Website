@@ -113,7 +113,7 @@ span {
   background-color: #ECECEC;
   line-height: 1;
   position: relative;
-  padding: 100px auto 100px auto;
+  padding: 100px auto;
 }
 
 .containter-middle-skill {
@@ -202,7 +202,7 @@ span {
 
 .paragraph-settings {
   clear: left;
-  white-space: break-spaces;
+  white-space: pre;
 }
 
 .styles {
@@ -213,3 +213,4 @@ span {
 }
 
 /********************************ID SELECTOR*******************************/
+/***************************Use # infront of name**************************/
